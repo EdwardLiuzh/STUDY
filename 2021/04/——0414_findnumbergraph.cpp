@@ -6,8 +6,6 @@
 #include <vector>
 using namespace std;
 const int nmax=1010;
-
-
 //遍历连通块
 void DFS(vector<vector<int>>&G,vector<int>& vis,vector<int>&p,int u){
 	vis[u]=1;
